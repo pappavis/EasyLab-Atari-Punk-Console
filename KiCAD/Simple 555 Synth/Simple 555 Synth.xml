@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>B:/Dropbox en Onedrive/Dropbox (Persoonlijk)/michiele/Aruino/PCB Ontwerp/KiCAD/projecten/Ander/EasyLab4Kids/EasyLab/KiCAD/geluid/Atari Punk Console/Simple 555 Synth/Simple 555 Synth.sch</source>
+    <date>11-1-2018 12:58:58</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>555 Atari Punk Console</title>
+        <company>EasyLab4Kids</company>
+        <rev>0.3</rev>
+        <date>2018-01-10</date>
+        <source>Simple 555 Synth.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P2">
+      <value>555-timer</value>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4CDF3A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>01.uF</value>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4CE3EC</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PWR_5v</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4CE611</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R50k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D047C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D0F6C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D1541</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>Luidspreker</value>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4D1818</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>555-timer</value>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A56A448</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R100k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A56C919</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A56F242</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector, double row, 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <description>Audio speaker, 2 pins, generic symbol</description>
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SPKR">
+      <node ref="P3" pin="5"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="2" name="/VSS">
+      <node ref="P1" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="SP1" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(P3-Pad8)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="5" name="/VCC">
+      <node ref="P2" pin="2"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="6" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="SP1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="P3" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(P2-Pad8)">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="11" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="14" name="/OUT">
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="15" name="/TRG">
+      <node ref="P2" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="16" name="/DIS">
+      <node ref="P2" pin="4"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

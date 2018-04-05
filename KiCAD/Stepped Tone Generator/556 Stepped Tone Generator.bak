@@ -1,0 +1,56 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2018-02-17"
+Rev "0.1"
+Comp "EasyLab4Kids"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Punk console"
+$EndDescr
+$Comp
+L NE556 U?
+U 1 1 5A8870D9
+P 3390 2040
+F 0 "U?" H 2990 2390 50  0000 L CNN
+F 1 "NE556" H 2990 1690 50  0000 L CNN
+F 2 "" H 3390 2040 50  0001 C CNN
+F 3 "" H 3390 2040 50  0001 C CNN
+	1    3390 2040
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

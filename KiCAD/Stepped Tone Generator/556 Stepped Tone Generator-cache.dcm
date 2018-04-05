@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE556P
+D NE556P timer chip
+K NE556, 556
+$ENDCMP
+#
+#End Doc Library

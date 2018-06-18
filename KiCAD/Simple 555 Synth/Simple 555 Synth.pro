@@ -1,4 +1,4 @@
-update=11-1-2018 16:13:05
+update=18-6-2018 10:24:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=Pappavis_logo_2klr
 LibName31=Sovjet_simpits_logo01
 LibName32=conn_mics
 LibName33=opamps
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=17

@@ -1,4 +1,4 @@
-** Simple 555 Synth / Atari Punk Console<br/>
+-- Simple 555 Synth / Atari Punk Console --<br/>
 8bit synth werk-in-uitvoering.<br/>
 Ontwikkelaar: Michiel Erasmus<br/>
 Een APC is, simpel geseg, 'n noise generator. Deur slimme en snelle manipulasie van weerstande is dit moontlik om Commodore6 64-achtige geluide te maak, of selfs drumbeats.<br/>

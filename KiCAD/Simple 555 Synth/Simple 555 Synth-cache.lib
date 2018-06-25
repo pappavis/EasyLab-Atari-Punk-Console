@@ -1,23 +1,29 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# CONN_01X01
+# Audio-Jack-5
 #
-DEF CONN_01X01 P 0 40 Y N 1 F N
-F0 "P" 0 100 50 H V C CNN
-F1 "CONN_01X01" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X01
- Pin_Header_Angled_1X01
- Socket_Strip_Straight_1X01
- Socket_Strip_Angled_1X01
-$ENDFPLIST
+DEF Audio-Jack-5 J 0 40 Y Y 1 F N
+F0 "J" -50 210 50 H V C CNN
+F1 "Audio-Jack-5" 25 -375 50 H V C CNN
+F2 "" 250 100 50 H I C CNN
+F3 "" 250 100 50 H I C CNN
 DRAW
-S -50 5 10 -5 0 1 0 N
-S -50 50 50 -50 0 1 0 N
-X P1 1 -200 0 150 R 50 50 1 1 P
+T 0 25 -250 30 0 0 0 1 Normal 0 C C
+T 0 -50 -250 30 0 0 0 2 Normal 0 C C
+T 0 -125 -250 30 0 0 0 3 Normal 0 C C
+T 0 -200 -250 30 0 0 0 4 Normal 0 C C
+S -280 -320 100 130 0 0 10 f
+S -275 -300 -305 -200 0 1 0 F
+P 4 0 1 10 0 -200 25 -225 50 -200 100 -200 N
+P 5 0 1 10 -75 -200 -50 -225 -25 -200 -25 -100 100 -100 N
+P 5 0 1 10 100 0 -100 0 -100 -200 -125 -225 -150 -200 N
+P 5 0 1 10 100 100 -175 100 -175 -200 -200 -225 -225 -200 N
+X ~ 1 200 -200 100 L 50 50 1 1 P
+X ~ 2 200 -100 100 L 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+X ~ 4 200 100 100 L 50 50 1 1 P
+X ~ 5 -300 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -38,6 +44,28 @@ P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x01
+#
+DEF Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -208,21 +236,6 @@ P 2 0 1 0 -60 -30 -90 -30 N
 P 2 0 1 0 -60 -30 -60 0 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SPEAKER
-#
-DEF SPEAKER SP 0 0 N Y 1 F N
-F0 "SP" -100 250 50 H V C CNN
-F1 "SPEAKER" -100 -250 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 4 0 0 0 100 150 250 300 250 -300 100 -150 N
-P 5 0 0 0 -100 150 100 150 100 -150 -100 -150 -100 150 F
-X 1 1 -300 100 200 R 40 40 1 1 I
-X 2 2 -300 -100 200 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #

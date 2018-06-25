@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0  Date: пон, 06 окт 2014 02:55:53 CEST
+#
+$CMP LM2904D
+D Dual OpAmp
+K opamp, dual, single supply, dual supply
+F http://www.ti.com/lit/ds/symlink/lm2904.pdf
+$ENDCMP
+#
+$CMP OPA340
+D SINGLE-SUPPLY, RAIL-TO-RAIL OPERATIONAL AMPLIFIERS
+K opamp, rail-to-rail
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+#End Doc Library

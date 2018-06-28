@@ -41,10 +41,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "555 Atari Punk Console"
-Date "2018-06-25"
+Date "2018-06-28"
 Rev "0.4"
 Comp "EasyLab4Kids"
-Comment1 "Versie 20180625 0.6"
+Comment1 "Versie 20180628 0.6"
 Comment2 ""
 Comment3 "http://easylab4kids.nl"
 Comment4 "Door Michiel Erasmus"
@@ -156,8 +156,6 @@ F 3 "" H 2700 1630 50  0001 C CNN
 $EndComp
 Text Notes 510  760  0    21   ~ 0
 https://youtu.be/LbVDpv5OEf4?t=947
-Text Label 1240 1810 2    21   ~ 0
-TRG1
 $Comp
 L Conn_01x02 J2
 U 1 1 5B277A42
@@ -172,7 +170,7 @@ $EndComp
 Text Label 4880 2110 2    21   ~ 0
 VSS
 Text Label 4900 2010 2    21   ~ 0
-Cap+
+cap1
 NoConn ~ 3480 2010
 $Comp
 L R R4
@@ -185,14 +183,6 @@ F 3 "" H 4660 1570 50  0001 C CNN
 	1    4660 1570
 	1    0    0    -1  
 $EndComp
-Text Label 1240 2210 2    21   ~ 0
-RST1
-Text Label 2400 2010 2    21   ~ 0
-RST1
-Text Label 2400 2210 2    21   ~ 0
-THR1
-Text Label 3440 2210 2    21   ~ 0
-RST2
 $Comp
 L LM358 U3
 U 1 1 5B27985E
@@ -342,8 +332,6 @@ Connection ~ 1090 1810
 Wire Wire Line
 	2260 1810 3480 1810
 Wire Wire Line
-	1760 2410 1760 2760
-Wire Wire Line
 	1660 1400 1660 1280
 Wire Wire Line
 	820  1400 1660 1400
@@ -370,13 +358,11 @@ Wire Wire Line
 	4910 2010 4480 2010
 Wire Wire Line
 	3980 2760 3980 2410
-Connection ~ 1760 2760
 Wire Wire Line
 	4910 2110 4800 2110
 Wire Wire Line
 	4800 2110 4800 2760
 Connection ~ 3980 2760
-Connection ~ 4660 2010
 Wire Wire Line
 	3980 1400 3980 1610
 Connection ~ 2700 1400
@@ -387,8 +373,6 @@ Wire Wire Line
 Wire Wire Line
 	4660 1400 4660 1420
 Connection ~ 3980 1400
-Wire Wire Line
-	4660 1720 4660 2000
 Connection ~ 3210 1400
 Wire Wire Line
 	2460 2210 2460 2390
@@ -397,8 +381,6 @@ Wire Wire Line
 Connection ~ 2700 2390
 Connection ~ 4660 1400
 Connection ~ 4800 2760
-Wire Wire Line
-	6180 1400 6180 1610
 Wire Wire Line
 	6180 2760 6180 2210
 Wire Wire Line
@@ -420,8 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 2640 3000 2760
 Connection ~ 3000 2760
-Wire Wire Line
-	4660 2010 4660 2140
 Wire Wire Line
 	4480 2210 4500 2210
 Wire Wire Line
@@ -463,7 +443,6 @@ Wire Notes Line
 	5390 1370 5740 1370
 Wire Notes Line
 	5740 1370 5740 1270
-Connection ~ 6180 1400
 Wire Notes Line
 	3550 1420 3430 1420
 Wire Notes Line
@@ -514,4 +493,26 @@ Wire Wire Line
 	7540 1700 7680 1700
 Wire Wire Line
 	1760 1280 1760 1610
+Wire Wire Line
+	6180 1400 6180 1610
+Wire Wire Line
+	4660 1720 4660 2140
+Connection ~ 4660 2010
+Wire Wire Line
+	1760 2410 1760 2760
+Connection ~ 1760 2760
+$Comp
+L GND #PWR01
+U 1 1 5B354FF7
+P 3560 2910
+F 0 "#PWR01" H 3560 2660 50  0001 C CNN
+F 1 "GND" H 3560 2760 50  0000 C CNN
+F 2 "" H 3560 2910 50  0001 C CNN
+F 3 "" H 3560 2910 50  0001 C CNN
+	1    3560 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3560 2910 3560 2760
+Connection ~ 3560 2760
 $EndSCHEMATC
